@@ -61,4 +61,26 @@ In order to explain the new results obtained, we are going to address a group of
         - New results
               <p align="center"><img src="https://user-images.githubusercontent.com/88695570/133725090-ad83cf23-0638-4222-b0d6-41847e0ca2b9.png">
 
-## Summary 
+## Summary
+After replace the Thomas High School scores with "NaN" values, some statistic metrict were affected. I will summarize those new results in 4 items:
+
+1. #### No statistic metric for the 9th grade: By removing the score from the analyses the final chart does not shows any metric for the 9th this could represent a potential issue for the school in the future.
+                 
+!<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910920-dc4de4d8-b72d-42bc-a172-de7111315f2a.png">
+                 
+2. #### Ranking position was affected (percentage results): This results are displayed and analyzed in a previous section (Results - 3). Removing the 9th grade socres caused an impact in the school ranking for both assignatures. 
+   
+3. #### Overall percentage has reduction: If we compare the original >% Overall Passing parameter with the new results, we can identify a reduction of 0.3% (from 90.9% to 90.6%).
+
+!<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910940-9b39ab45-eabe-4ac7-b59a-6604b7d4dbd6.png">
+   
+4. #### Average reading score increased: Contrary to the other statistic metrics results, the >Average reading score has a small increment of 0.1%. It doesn't represent a big different but it should considered for analytics purposes. 
+
+!<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910952-b22904d6-c6a2-4159-9320-0d0fec0aba84.png">
+                
+5. #### Total of students who passed math and reading test decreased: Before removing the 9th grade's score the school obtained a total of 1487 students who pass both assignatures (math and reading), after the cleaning process this value decreased considerable to 1064. This measure was reflected in the >% Overall Passing results mentioned on the item 3.
+   
+!<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910958-9988c94d-b264-4fd8-ba26-4770b8fd09d5.png">
+
+  
+                 
