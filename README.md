@@ -23,7 +23,7 @@ In order to explain the new results, we are going to address a group of question
         
 3. How does replacing the ninth graders’ Math and Reading scores affect Thomas High School’s performance relative to the other schools?
 
-   - Math Results: To present how the Thomas High school's results were affected, the school summary was sorted descending based on the percentage of students who passed the Math evaluation (**%Passing Math**). As you can see the ranking position was modified from the 6th to the 7th position.
+   - Math Results: To present how the Thomas High school's results were affected, the school summary was sorted descending based on the percentage of students who passed the Math evaluation *%Passing Math*. As you can see the ranking position was modified from the 6th to the 7th position.
        
         <p align="center"><img src="https://user-images.githubusercontent.com/88695570/133724675-2002b538-fa45-4522-a87e-0cb01b05cd99.png">
             
@@ -33,11 +33,11 @@ In order to explain the new results, we are going to address a group of question
         
 4. How does replacing the ninth-grade scores affect the following:
 
-   - Math and Reading scores by grade: Only the ThomaS High school's results for the 9th grade were affected. After we decided to eliminate the 9th grade score for Math and Reading, it was expected to display **null** values only for those two columns. This is the screenshot for the new results: 
+   - Math and Reading scores by grade: Only the ThomaS High school's results for the 9th grade were affected. After we decided to eliminate the 9th grade score for Math and Reading, it was expected to display *null* values only for those two columns. This is the screenshot for the new results: 
            
          <p align="center"><img src="https://user-images.githubusercontent.com/88695570/133724807-4db6e651-bf05-457e-b4f9-6466653507cc.png">    
                  
-   - Scores by school spending: Thomas High school belongs to the spending range of **$630-644**, which was the only section imptacted. The **%Passing Math results** was affected in 1%. The other metric data results remain the same.  
+   - Scores by school spending: Thomas High school belongs to the spending range of *$630-644*, which was the only section imptacted. The *%Passing Math results* was affected in 1%. The other metric data results remain the same.  
             
         - Original results:
               <p align="center"><img src="https://user-images.githubusercontent.com/88695570/133724944-5f388603-b8c0-41cd-82f3-2969652a400c.png">
@@ -53,7 +53,7 @@ In order to explain the new results, we are going to address a group of question
         - New results
               <p align="center"><img src="https://user-images.githubusercontent.com/88695570/133725058-dbabacca-164c-4995-85ac-471f3ca3ee9a.png">
     
-   - Scores by school type: There is a slight difference on the **Charter** results; to be more specific, only on the **%Passing Reading** parameter. This small variation (around 0.1%) was expected considering the portion of data that was removed. 
+   - Scores by school type: There is a slight difference on the *Charter* results; to be more specific, only on the *%Passing Reading* parameter. This small variation (around 0.1%) was expected considering the portion of data that was removed. 
                  
         - Original results
               <p align="center"><img src="https://user-images.githubusercontent.com/88695570/133725072-922cc9f5-ff81-41b1-a22e-a22c8c5683ec.png">
@@ -62,25 +62,25 @@ In order to explain the new results, we are going to address a group of question
               <p align="center"><img src="https://user-images.githubusercontent.com/88695570/133725090-ad83cf23-0638-4222-b0d6-41847e0ca2b9.png">
 
 ## Summary
-After the Thomas High School scores were replaced with **NaN** values, some statistic parameters were affected. I will summarize those new results in 4 items:
+After the Thomas High School scores were replaced with *NaN* values, some statistic parameters were affected. I will summarize those new results in 4 items:
 
 1. #### No statistic data for 9th grade: By removing the score from the analysis the final chart does not shows any metric for the 9th grade. This could represent a potential issue for the school in the future.
                  
-!<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910920-dc4de4d8-b72d-42bc-a172-de7111315f2a.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910920-dc4de4d8-b72d-42bc-a172-de7111315f2a.png">
                  
 2. #### Ranking position was affected (percentage results): This result was analyzed in a previous section (Results - 3). Removing the 9th grade socres caused an impact in the school ranking for both assignatures. 
    
-3. #### Overall percentage has reduction: If we compare the original **% Overall Passing** parameter with the new results, we can identify a reduction of 0.3% (from 90.9% to 90.6%).
+3. #### Overall percentage has reduction: If we compare the original *% Overall Passing* parameter with the new results, we can identify a reduction of 0.3% (from 90.9% to 90.6%).
 
-!<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910940-9b39ab45-eabe-4ac7-b59a-6604b7d4dbd6.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910940-9b39ab45-eabe-4ac7-b59a-6604b7d4dbd6.png">
    
-4. #### Average Reading score increased: Despite of the other statistic results, the **Average reading score** has a small increment of 0.1%. It does not represent a big difference but it should be considered for analytics purposes. 
+4. #### Average Reading score increased: Despite of the other statistic results, the *Average reading score* has a small increment of 0.1%. It does not represent a big difference but it should be considered for analytics purposes. 
 
-!<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910952-b22904d6-c6a2-4159-9320-0d0fec0aba84.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910952-b22904d6-c6a2-4159-9320-0d0fec0aba84.png">
                 
-5. #### Total of students who passed Math and Reading test decreased: Before removing the 9th grade score, the school had a total of 1487 students who passed both assignatures (Math and Reading). After the cleaning process this value decreased considerably to 1064. This measure was reflected on the **% Overall Passing**, results mentioned on the item 3 in this section.
+5. #### Total of students who passed Math and Reading test decreased: Before removing the 9th grade score, the school had a total of 1487 students who passed both assignatures (Math and Reading). After the cleaning process this value decreased considerably to 1064. This measure was reflected on the *% Overall Passing*, results mentioned on the item 3 in this section.
    
-!<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910958-9988c94d-b264-4fd8-ba26-4770b8fd09d5.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/133910958-9988c94d-b264-4fd8-ba26-4770b8fd09d5.png">
 
   
                  
